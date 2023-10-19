@@ -728,3 +728,6 @@ const UpdateUsers = users.map((item) => {
   };
 });
 console.log(UpdateUsers);
+
+const filteredArr = users.filter((item) => item._id !== 103);
+console.log(filteredArr);
